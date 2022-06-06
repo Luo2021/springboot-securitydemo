@@ -1,0 +1,16 @@
+spring:
+  security:
+    user:
+      name: luoli
+      password: luoli
+#jdbc
+  datasource:
+    url: jdbc:mysql://192.168.248.128:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: 123456
+#jpa
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database: mysql
+
